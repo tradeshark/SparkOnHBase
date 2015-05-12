@@ -60,6 +60,6 @@ object HBaseBulkPutExample {
         putRecord._2.foreach((putValue) => put.add(putValue._1, putValue._2, putValue._3))
         put
       },
-      true);
+      false);
 	}
 }
